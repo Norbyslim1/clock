@@ -1,0 +1,64 @@
+#base{
+    position: relative;
+    background-color: crimson;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 40rem;
+    width: 40rem;
+    min-width: 100vh;
+    min-height: 100vh;
+    justify-content: space-around;
+}
+#circumference{
+    position: relative;
+    left: 0%;
+    top: 0%;
+    height: 500px;
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+#secondHand{
+    width: 1%;
+    height: 40%;
+    transform: rotateZ(90deg);
+    position: relative;
+    left: 50%;
+    top: 10%;
+    background-color: yellow;
+    transform-origin: 50% 100% 0px;
+}
+#minuteHand{
+    position: relative;
+    left: 50%;
+    width: 2%;
+    height: 38%;
+    bottom: 28%;
+    transform: rotateZ(90deg);
+    background-color: darkblue;
+    transform-origin: 50% 100% 0px;
+}
+#hourHand{
+    position: relative;
+    width: 2%;
+    height: 30%;
+    transform: rotateZ(90deg);
+    bottom: 58%;
+    left: 50%;  
+    background-color: darkgreen;
+    transform-origin: 50% 100% 0px;
+}
+input{
+    padding: 2%;
+    border-radius: 5%;
+    width: 25%;
+    height: 10%;
+    margin: 0.5%;
+}
+button{
+    background-color: lightgreen;
+    padding: 2%;
+    border-radius: 20%;
+    height: 10%;
+    width: 15%;
+}
